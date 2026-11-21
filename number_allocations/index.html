@@ -10,28 +10,28 @@
       
       
       
-        <link rel="canonical" href="https://meshcore-dev.github.io/meshcore/packet_structure/">
+        <link rel="canonical" href="https://meshcore-dev.github.io/meshcore/number_allocations/">
       
       
         <link rel="prev" href="../nrf52_power_management/">
       
       
-        <link rel="next" href="../payloads/">
+        <link rel="next" href="../packet_format/">
       
       
         
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
-        <title>Packet Structure - MeshCore Docs</title>
+        <title>Number Allocations - MeshCore Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
       
 
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#packet-structure" class="md-skip">
+        <a href="#number-allocations" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +88,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="MeshCore Docs" class="md-header__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
       
-  <img src="../_assets/meshcore_tm.svg" alt="logo">
+  <img src="../_assets/meshcore.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Packet Structure
+              Number Allocations
             
           </span>
         </div>
@@ -199,7 +199,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="MeshCore Docs" class="md-nav__button md-logo" aria-label="MeshCore Docs" data-md-component="logo">
       
-  <img src="../_assets/meshcore_tm.svg" alt="logo">
+  <img src="../_assets/meshcore.svg" alt="logo">
 
     </a>
     MeshCore Docs
@@ -361,6 +361,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../kiss_modem_protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MeshCore KISS Modem Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../nrf52_power_management/" class="md-nav__link">
         
   
@@ -397,24 +424,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Packet Structure
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -422,7 +431,7 @@
   <span class="md-ellipsis">
     
   
-    Packet Structure
+    Number Allocations
   
 
     
@@ -432,69 +441,33 @@
 
       </a>
       
-        
+    </li>
+  
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    
+      
+      
   
   
   
+  
+    <li class="md-nav__item">
+      <a href="../packet_format/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
+    Packet Format
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#header-breakdown" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Header Breakdown
-      
-    </span>
-  </a>
+
+    
+  </span>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#route-type-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Route Type Values
-      
-    </span>
-  </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#payload-type-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Type Values
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#payload-version-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Version Values
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
+
+      </a>
     </li>
   
 
@@ -513,7 +486,7 @@
   <span class="md-ellipsis">
     
   
-    Meshcore payloads
+    Payload Format
   
 
     
@@ -541,6 +514,33 @@
     
   
     QR Codes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../radio_presets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radio Presets
   
 
     
@@ -627,58 +627,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#header-breakdown" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Header Breakdown
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#route-type-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Route Type Values
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#payload-type-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Type Values
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#payload-version-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Version Values
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -694,7 +642,7 @@
 
 
   
-    <a href="https://github.com/meshcore-dev/meshcore/edit/main/docs/packet_structure.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/meshcore-dev/meshcore/edit/main/docs/number_allocations.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -702,232 +650,60 @@
   
 
 
-<h1 id="packet-structure">Packet Structure</h1>
+<h1 id="number-allocations">Number Allocations</h1>
+<p>This document lists unique numbers/identifiers used in various MeshCore protocol payloads.</p>
+<h1 id="group-data-types">Group Data Types</h1>
+<p>The <code>PAYLOAD_TYPE_GRP_DATA</code> payloads have a 16-bit data-type field, which identifies which application the packet is for.</p>
+<p>To make sure multiple applications can function without interfering with each other, the table below is for reserving various ranges of data-type values. Just modify this table, adding a row, then submit a PR to have it authorised/merged.</p>
+<p>NOTE: the range FF00 - FFFF is for use while you're developing, doing POC, and for these you don't need to request to use/allocate.</p>
+<p>Once you have a working app/project, you need to be able to demonstrate it exists/works, and THEN request type IDs. So, just use the testing/dev range while developing, then request IDs before you transition to publishing your project.</p>
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Size (bytes)</th>
-<th>Description</th>
+<th>Data-Type range</th>
+<th>App name</th>
+<th>Contact</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>header</td>
-<td>1</td>
-<td>Contains routing type, payload type, and payload version.</td>
+<td>0000 - 00FF</td>
+<td>-reserved for internal use-</td>
+<td></td>
 </tr>
 <tr>
-<td>transport_codes</td>
-<td>4 (optional)</td>
-<td>2x 16-bit transport codes (if ROUTE_TYPE_TRANSPORT_*)</td>
+<td>0100</td>
+<td>MeshCore Open</td>
+<td>zsylvester@monitormx.com — https://github.com/zjs81/meshcore-open</td>
 </tr>
 <tr>
-<td>path_len</td>
-<td>1</td>
-<td>Length of the path field in bytes.</td>
+<td>0110 - 011F</td>
+<td>Ripple</td>
+<td>ripple_biz@protonmail.com — https://buymeacoffee.com/ripplebiz</td>
 </tr>
 <tr>
-<td>path</td>
-<td>up to 64 (<code>MAX_PATH_SIZE</code>)</td>
-<td>Stores the routing path if applicable.</td>
+<td>0120</td>
+<td>MCO Advanced</td>
+<td>most.original.address@gmail.com — https://hdden.ru/MCOa/</td>
 </tr>
 <tr>
-<td>payload</td>
-<td>up to 184 (<code>MAX_PACKET_PAYLOAD</code>)</td>
-<td>The actual data being transmitted.</td>
+<td>0130 - 013F</td>
+<td>StreamSensor</td>
+<td>william@housedillon.com - https://housedillon.com/blog/lora-e5-with-seeed-fusion</td>
+</tr>
+<tr>
+<td>0140</td>
+<td>Nelos</td>
+<td>support@nelos.app — https://nelos.app</td>
+</tr>
+<tr>
+<td>FF00 - FFFF</td>
+<td>-reserved for testing/dev-</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Note: see the <a href="../payloads/">payloads doc</a> for more information about the content of payload.</p>
-<h2 id="header-breakdown">Header Breakdown</h2>
-<p>bit 0 means the lowest bit (1s place)</p>
-<table>
-<thead>
-<tr>
-<th>Bits</th>
-<th>Mask</th>
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0-1</td>
-<td><code>0x03</code></td>
-<td>Route Type</td>
-<td>Flood, Direct, Reserved - see below.</td>
-</tr>
-<tr>
-<td>2-5</td>
-<td><code>0x3C</code></td>
-<td>Payload Type</td>
-<td>Request, Response, ACK, etc. - see below.</td>
-</tr>
-<tr>
-<td>6-7</td>
-<td><code>0xC0</code></td>
-<td>Payload Version</td>
-<td>Versioning of the payload format - see below.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="route-type-values">Route Type Values</h2>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>0x00</code></td>
-<td><code>ROUTE_TYPE_TRANSPORT_FLOOD</code></td>
-<td>Flood routing mode + transport codes</td>
-</tr>
-<tr>
-<td><code>0x01</code></td>
-<td><code>ROUTE_TYPE_FLOOD</code></td>
-<td>Flood routing mode (builds up path).</td>
-</tr>
-<tr>
-<td><code>0x02</code></td>
-<td><code>ROUTE_TYPE_DIRECT</code></td>
-<td>Direct route (path is supplied).</td>
-</tr>
-<tr>
-<td><code>0x03</code></td>
-<td><code>ROUTE_TYPE_TRANSPORT_DIRECT</code></td>
-<td>direct route + transport codes</td>
-</tr>
-</tbody>
-</table>
-<h2 id="payload-type-values">Payload Type Values</h2>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>0x00</code></td>
-<td><code>PAYLOAD_TYPE_REQ</code></td>
-<td>Request (destination/source hashes + MAC).</td>
-</tr>
-<tr>
-<td><code>0x01</code></td>
-<td><code>PAYLOAD_TYPE_RESPONSE</code></td>
-<td>Response to REQ or ANON_REQ.</td>
-</tr>
-<tr>
-<td><code>0x02</code></td>
-<td><code>PAYLOAD_TYPE_TXT_MSG</code></td>
-<td>Plain text message.</td>
-</tr>
-<tr>
-<td><code>0x03</code></td>
-<td><code>PAYLOAD_TYPE_ACK</code></td>
-<td>Acknowledgment.</td>
-</tr>
-<tr>
-<td><code>0x04</code></td>
-<td><code>PAYLOAD_TYPE_ADVERT</code></td>
-<td>Node advertisement.</td>
-</tr>
-<tr>
-<td><code>0x05</code></td>
-<td><code>PAYLOAD_TYPE_GRP_TXT</code></td>
-<td>Group text message (unverified).</td>
-</tr>
-<tr>
-<td><code>0x06</code></td>
-<td><code>PAYLOAD_TYPE_GRP_DATA</code></td>
-<td>Group datagram (unverified).</td>
-</tr>
-<tr>
-<td><code>0x07</code></td>
-<td><code>PAYLOAD_TYPE_ANON_REQ</code></td>
-<td>Anonymous request.</td>
-</tr>
-<tr>
-<td><code>0x08</code></td>
-<td><code>PAYLOAD_TYPE_PATH</code></td>
-<td>Returned path.</td>
-</tr>
-<tr>
-<td><code>0x09</code></td>
-<td><code>PAYLOAD_TYPE_TRACE</code></td>
-<td>trace a path, collecting SNI for each hop.</td>
-</tr>
-<tr>
-<td><code>0x0A</code></td>
-<td><code>PAYLOAD_TYPE_MULTIPART</code></td>
-<td>packet is part of a sequence of packets.</td>
-</tr>
-<tr>
-<td><code>0x0B</code></td>
-<td><code>PAYLOAD_TYPE_CONTROL</code></td>
-<td>control packet data (unencrypted)</td>
-</tr>
-<tr>
-<td><code>0x0C</code></td>
-<td>.</td>
-<td>reserved</td>
-</tr>
-<tr>
-<td><code>0x0D</code></td>
-<td>.</td>
-<td>reserved</td>
-</tr>
-<tr>
-<td><code>0x0E</code></td>
-<td>.</td>
-<td>reserved</td>
-</tr>
-<tr>
-<td><code>0x0F</code></td>
-<td><code>PAYLOAD_TYPE_RAW_CUSTOM</code></td>
-<td>Custom packet (raw bytes, custom encryption).</td>
-</tr>
-</tbody>
-</table>
-<h2 id="payload-version-values">Payload Version Values</h2>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Version</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>0x00</code></td>
-<td>1</td>
-<td>1-byte src/dest hashes, 2-byte MAC.</td>
-</tr>
-<tr>
-<td><code>0x01</code></td>
-<td>2</td>
-<td>Future version (e.g., 2-byte hashes, 4-byte MAC).</td>
-</tr>
-<tr>
-<td><code>0x02</code></td>
-<td>3</td>
-<td>Future version.</td>
-</tr>
-<tr>
-<td><code>0x03</code></td>
-<td>4</td>
-<td>Future version.</td>
-</tr>
-</tbody>
-</table>
+<p>(add rows, inside the range 0100 - FEFF for custom apps)</p>
 
 
 
@@ -977,10 +753,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.action.edit", "content.code.copy", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.action.edit", "content.code.copy", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>
